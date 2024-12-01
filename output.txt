@@ -1,3 +1,5 @@
+Enter 3 elements for array a: 
+Elements of array b are: 
 1
 2
 3

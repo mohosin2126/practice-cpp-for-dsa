@@ -1,11 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
+int *p;
+void fun()
+{
+    int x = 10;
+    p = &x;
+    cout << "void" << *p;
+}
 int main()
 {
-    int x = 25;
-    int y = 8;
-   swap(x,y);
-   cout<<x<<y<<endl;
-
+    fun();
+    cout << *p << endl;
     return 0;
 }

@@ -6,11 +6,11 @@ int main()
 {
     int A = 15;
     int C = 17;
-    if (__ == 0 && __ == 0)
+    if (A % 2 == 0 && C % 2 == 0)
     {
         cout << "Both A and C are even" << endl;
     }
-    else if (__ != 0 and __ != 0)
+    else if (A % 2 != 0 and C % 2 != 0)
     {
         cout << "Both A and C are odd" << endl;
     }
@@ -20,11 +20,11 @@ int main()
     }
     A = 15;
     C = 18;
-    if (__ == 0 && __ == 0)
+    if (A % 2 == 0 && C % 2 == 0)
     {
         cout << "Both A and C are even" << endl;
     }
-    else if (__ != 0 && __ != 0)
+    else if (A % 2 != 0 && C % 2 != 0)
     {
         cout << "Both A and C are odd" << endl;
     }

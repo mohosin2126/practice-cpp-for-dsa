@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x, y;
+    cin >> x >> y;
+    cout << (x >= 2 * y ? "Yes" : "No") << endl;
+    return 0;
+}
